@@ -6,8 +6,8 @@ import csv
 import ipaddress
 import subprocess as sub
 
-USER = 'admin'
-PASSWORD = '611621'
+USER = ''
+PASSWORD = ''
 
 logging.basicConfig(level=logging.INFO)
 logging.getLogger('paramiko').setLevel(logging.WARNING)
